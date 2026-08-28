@@ -1,0 +1,18 @@
+# Flop Agent Toolkit — config template
+# Copy to config.yaml and fill in your values
+
+# Your DID (did:key:...) from Technocore identity
+did: null
+
+# Identity directory (Ed25519 PEM + passphrase)
+identity_dir: ~/.arsenal/technocore-agent
+
+# Default model for inference
+model: llama-3.1-8b
+max_tokens: 200
+
+# Polling interval (seconds)
+poll_interval: 30
+
+# Flop testnet (Q4 2026)
+flop_testnet_api: null
